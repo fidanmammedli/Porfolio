@@ -1,0 +1,430 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header nav {
+  display: flex;
+  background-color: black;
+}
+header nav div {
+  margin-left: 20px;
+}
+header nav div i {
+  font-size: 35px;
+  margin-left: 50px;
+  margin-top: 20px;
+  color: white;
+}
+header nav div i:hover {
+  color: #009e66;
+}
+header nav div.navbar {
+  margin-left: 850px;
+}
+header nav div.navbar ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+}
+header nav div.navbar ul a {
+  text-decoration: none;
+  color: #fff;
+}
+header nav div.navbar a:hover {
+  color: #009e66;
+}
+
+section.birinci {
+  background-color: black;
+}
+section.birinci div h1.hero-title {
+  font-size: 106px;
+  font-weight: 700;
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  margin-bottom: 10px;
+  line-height: 1.2;
+  margin-top: 280px;
+}
+section.birinci div h1.hero-title span {
+  color: #009e66;
+  font-size: 100px;
+  font-weight: 700;
+}
+section.birinci div h1.hero-subtitle {
+  font-size: 32px;
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  margin-bottom: 10px;
+  line-height: 1.2;
+  font-weight: 600;
+  margin-left: 50px;
+}
+section.birinci div h1.hero-subtitle span {
+  color: #009e66;
+  font-size: 64px;
+  position: relative;
+  top: 4px;
+  font-weight: 100;
+}
+section.birinci p {
+  color: #fff;
+  font-size: 24px;
+  margin-bottom: 35px;
+  font-weight: 400;
+}
+section.birinci div.dreamit-button a {
+  text-decoration: none;
+  display: inline-block;
+  background: #009e66;
+  color: #fff;
+  padding: 15px 40px;
+  font-size: 16px;
+  font-weight: 500;
+  transition: 0.5s;
+  border: 1px solid #009e66;
+}
+section.birinci div.dreamit-button a:hover {
+  background: #127653;
+  color: #fff;
+  border-color: #127653;
+}
+section.birinci img.sekil1 {
+  width: 525px;
+  height: 775px;
+  position: relative;
+  bottom: 28px;
+  left: 149px;
+}
+
+section.ikinci {
+  background-color: black;
+}
+section.ikinci div.bio {
+  text-align: center;
+  justify-content: center;
+}
+section.ikinci div.bio h5 {
+  color: #7c838e;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: 500;
+  margin: 0 0 15px;
+  position: relative;
+  display: inline-block;
+  margin-bottom: 45px;
+  margin-top: 85px;
+}
+section.ikinci div.bio h3 {
+  font-size: 46px;
+  text-transform: none;
+  font-weight: 700;
+  position: relative;
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  margin-bottom: 10px;
+  line-height: 1.2;
+}
+section.ikinci div.bio h3::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: -65px;
+  height: 45px;
+  width: 3px;
+  background: #009e66;
+}
+section.ikinci div.container div.col-6 img {
+  width: 400px;
+  margin-top: 56px;
+}
+section.ikinci div.container div.col-6 h3.about {
+  margin-top: 70px;
+  margin-left: 45px;
+  font-size: 22px;
+  font-weight: 500;
+  color: #009e66;
+  margin-bottom: 17px;
+  text-transform: capitalize;
+}
+section.ikinci div.container div.col-6 h5.aboutt {
+  font-size: 32px;
+  font-weight: 600;
+  text-transform: capitalize;
+  margin-bottom: 15px;
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+}
+section.ikinci div.container div.col-6 p.aboutp {
+  color: #7c838e;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: left;
+  transition: 0.3s;
+  font-family: "Poppins", sans-serif;
+}
+
+section.ucuncu {
+  background-color: black;
+}
+section.ucuncu div.do {
+  text-align: center;
+  justify-content: center;
+}
+section.ucuncu div.do h5 {
+  color: #7c838e;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: 500;
+  margin: 0 0 15px;
+  position: relative;
+  display: inline-block;
+  margin-bottom: 45px;
+  margin-top: 85px;
+}
+section.ucuncu div.do h3 {
+  font-size: 46px;
+  text-transform: none;
+  font-weight: 700;
+  position: relative;
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  margin-bottom: 10px;
+  line-height: 1.2;
+}
+section.ucuncu div.do h3::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: -65px;
+  height: 45px;
+  width: 3px;
+  background: #009e66;
+}
+section.ucuncu div.services {
+  display: flex;
+  gap: 10px;
+}
+section.ucuncu div.services div.one {
+  margin-top: 110px;
+  color: #333;
+  padding: 0px 0px 0px 0px;
+  background-color: #212121;
+  border: 1px none;
+}
+section.ucuncu div.services div.one div {
+  padding: 30px 35px 1px 35px;
+}
+section.ucuncu div.services div.one div i {
+  border-radius: 0px 0px 0px 0px;
+  margin: 0px 0px 37px 0px;
+  font-size: 55px;
+  color: #009E66;
+  transition: all 0.5s ease 0s;
+}
+section.ucuncu div.services div.one div h3 {
+  font-size: 22px;
+  font-weight: 600;
+  text-transform: capitalize;
+  color: #FFFFFF;
+  margin: -30px 0px 0px 0px;
+}
+section.ucuncu div.services div.one div p {
+  color: #7c838e;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: left;
+  transition: 0.3s;
+  font-family: "Poppins", sans-serif;
+}
+section.ucuncu div.services div.one div a {
+  text-decoration: none;
+  color: #009E66;
+  margin-top: 20px;
+}
+section.ucuncu div.services div.one:hover {
+  background-color: #009E66;
+  color: white;
+}
+section.ucuncu div.services div.one:hover i {
+  color: white;
+}
+section.ucuncu div.services div.one:hover p {
+  color: white;
+}
+section.ucuncu div.services div.one:hover a {
+  color: white;
+}
+
+section.dorduncu {
+  background-color: black;
+}
+section.dorduncu div.contact {
+  text-align: center;
+  justify-content: center;
+}
+section.dorduncu div.contact h5 {
+  color: #7c838e;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: 500;
+  margin: 0 0 15px;
+  position: relative;
+  display: inline-block;
+  margin-bottom: 45px;
+  margin-top: 85px;
+}
+section.dorduncu div.contact h3 {
+  font-size: 46px;
+  text-transform: none;
+  font-weight: 700;
+  position: relative;
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  margin-bottom: 10px;
+  line-height: 1.2;
+}
+section.dorduncu div.contact h3::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: -65px;
+  height: 45px;
+  width: 3px;
+  background: #009e66;
+}
+section.dorduncu div.col-6 img {
+  width: 100%;
+  width: 100%;
+  margin-top: 70px;
+  position: relative;
+  right: 42px;
+}
+section.dorduncu div h5 {
+  margin-top: 70px;
+  margin-left: 45px;
+  font-size: 22px;
+  font-weight: 500;
+  color: #009e66;
+  margin-bottom: 17px;
+  text-transform: capitalize;
+}
+section.dorduncu div h3 {
+  font-size: 32px;
+  font-weight: 600;
+  text-transform: capitalize;
+  margin-bottom: 15px;
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+}
+section.dorduncu div span {
+  color: #7c838e;
+  margin-right: 10px;
+}
+section.dorduncu div p {
+  color: #fff;
+  font-weight: 500;
+  margin-top: 21px;
+}
+section.dorduncu div input {
+  height: 54px;
+  background-color: #1c1c1c;
+  border-color: transparent;
+  transition: 0.5s;
+  border: 1px solid #282828;
+  padding: 6px 20px;
+  box-shadow: none;
+  border-radius: 5px;
+  color: #fff;
+}
+section.dorduncu div input.mail {
+  height: 54px;
+  background-color: #1c1c1c;
+  border-color: transparent;
+  transition: 0.5s;
+  border: 1px solid #282828;
+  padding: 6px 20px;
+  box-shadow: none;
+  border-radius: 5px;
+  color: #fff;
+  margin-left: 10px;
+}
+section.dorduncu div input.text {
+  height: 100px;
+  width: 380px;
+  background-color: #1c1c1c;
+  border-color: transparent;
+  transition: 0.5s;
+  border: 1px solid #282828;
+  padding: 6px 20px;
+  box-shadow: none;
+  border-radius: 5px;
+  color: #fff;
+  margin-bottom: 30px;
+  margin-top: 17px;
+}
+section.dorduncu div div.dreamit-button a {
+  text-decoration: none;
+  display: inline-block;
+  background: #009e66;
+  color: #fff;
+  padding: 15px 40px;
+  font-size: 16px;
+  font-weight: 500;
+  transition: 0.5s;
+  border: 1px solid #009e66;
+}
+section.dorduncu div div.dreamit-button a:hover {
+  background: #127653;
+  color: #fff;
+  border-color: #127653;
+}
+section.dorduncu div input:hover {
+  color: #7c838e;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: left;
+  transition: 0.3s;
+  font-family: "Poppins", sans-serif;
+  border-color: #009e66;
+}
+
+section.bes {
+  background-color: black;
+}
+section.bes div.line {
+  width: 200px;
+  height: 4px;
+}
+section.bes div.containerrr {
+  display: flex;
+  gap: 970px;
+}
+section.bes div.containerrr p {
+  color: #009e66;
+}
+section.bes div.containerrr div {
+  display: flex;
+  gap: 16px;
+  margin-top: 35px;
+}
+section.bes div.containerrr div a {
+  font-size: 20px;
+  color: #009E66;
+}/*# sourceMappingURL=style.css.map */
